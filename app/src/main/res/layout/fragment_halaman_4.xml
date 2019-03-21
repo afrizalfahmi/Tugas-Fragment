@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".halaman_4">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hallo"
+                    android:text="SEJARAH"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#000"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"/>
+
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview6"
+                    android:text="Jawa Tengah (disingkat Jateng) (Hanacaraka: ꦗꦮ​ꦠꦼꦔꦃ, Jawa: Jåwå Tengah) adalah sebuah provinsi Indonesia yang terletak di bagian tengah Pulau Jawa. Ibu kotanya adalah Semarang. Provinsi ini berbatasan dengan Provinsi Jawa Barat di sebelah barat, Samudra Hindia dan Daerah Istimewa Yogyakarta di sebelah selatan, Jawa Timur di sebelah timur, dan Laut Jawa di sebelah utara. Luas wilayahnya 32.548 km², atau sekitar 28,94% dari luas pulau Jawa. Provinsi Jawa Tengah juga meliputi Pulau Nusakambangan di sebelah selatan (dekat dengan perbatasan Jawa Barat), serta Kepulauan Karimun Jawa di Laut Jawa.Pengertian Jawa Tengah secara geografis dan budaya kadang juga mencakup wilayah Daerah Istimewa Yogyakarta. Jawa Tengah dikenal sebagai "jantung" budaya Jawa. Meskipun demikian di provinsi ini ada pula suku bangsa lain yang memiliki budaya yang berbeda dengan suku Jawa seperti suku Sunda di daerah perbatasan dengan Jawa Barat. Selain ada pula warga Tionghoa-Indonesia, Arab-Indonesia dan India-Indonesia yang tersebar di seluruh provinsi ini. "
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="25sp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

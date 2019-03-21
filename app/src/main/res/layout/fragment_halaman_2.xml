@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".halaman">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hallo"
+                    android:text="PARIWISATA"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"/>
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="150dp"
+                       android:src="@drawable/bukit"
+                       android:layout_marginTop="10dp"
+                       android:layout_weight="1"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview6"
+                    android:text="Pariwisata atau turisme adalah suatu perjalanan yang dilakukan untuk rekreasi atau liburan dan juga persiapan yang dilakukan untuk aktivitas ini. Seorang wisatawan atau turis adalah seseorang yang melakukan perjalanan paling tidak sejauh 80 km (50 mil) dari rumahnya dengan tujuan rekreasi, merupakan definisi oleh Organisasi Pariwisata Dunia.
+
+Definisi yang lebih lengkap,turisme adalah industri jasa. Mereka menangani jasa mulai dari transportasi, jasa keramahan, tempat tinggal, makanan, minuman dan jasa bersangkutan lainnya seperti bank, asuransi, keamanan dll. Dan juga menawarkan tempat istrihat, budaya, pelarian, petualangan,pengalaman baru dan berbeda lainnya.
+
+Banyak negara bergantung banyak dari industri pariwisata ini sebagai sumber pajak dan pendapatan untuk perusahaan yang menjual jasa kepada wisatawan. Oleh karena itu pengembangan industri pariwisata ini adalah salah satu strategi yang dipakai oleh Organisasi Non-Pemerintah untuk mempromosikan wilayah tertentu sebagai daerah wisata untuk meningkatkan perdagangan melalui penjualan barang dan jasa kepada orang non-lokal. "
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20sp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
